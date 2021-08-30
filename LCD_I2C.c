@@ -124,11 +124,11 @@ void LCD_I2C_Init(void)
 	delay_ms(10);
 	LCD_I2C_Command(0x32);
 	delay_ms(10);
-    LCD_I2C_Command(0x28);
+	LCD_I2C_Command(0x28);
 	delay_ms(2);
-    LCD_I2C_Command(0x0C);
+	LCD_I2C_Command(0x0C);
 	delay_ms(1);
-    LCD_I2C_Command(0x01);
+	LCD_I2C_Command(0x01);
 	delay_ms(10);
 }
 
