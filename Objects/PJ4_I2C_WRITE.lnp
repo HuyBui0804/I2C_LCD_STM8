@@ -1,0 +1,9 @@
+--cpu Cortex-M3
+".\objects\main.o"
+".\objects\lcd_i2c.o"
+".\objects\startup_stm32f10x_md.o"
+".\objects\system_stm32f10x.o"
+--strict --scatter ".\Objects\PJ4_I2C_WRITE.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\PJ4_I2C_WRITE.map" -o .\Objects\PJ4_I2C_WRITE.axf
